@@ -1,0 +1,15 @@
+.headercontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.headerul {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.image {
+    width: 250px;
+}
