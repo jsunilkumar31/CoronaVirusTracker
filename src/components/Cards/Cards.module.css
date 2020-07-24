@@ -26,3 +26,9 @@
         margin: 2% 0 !important;
     }
 }
+
+@media only screen and (max-width: 570px) {
+    .container {
+        margin: 50px 25px;
+    }
+}

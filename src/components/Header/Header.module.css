@@ -13,3 +13,18 @@
 .image {
     width: 250px;
 }
+
+.headerUlMobile {
+    display: none;
+}
+
+@media only screen and (max-width: 770px) {
+    .headerul {
+        display: none;
+    }
+    .headerUlMobile {
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+    }
+}
