@@ -10,15 +10,24 @@
 }
 
 .infected {
-    border-bottom: 10px solid #BD00FF;
+    /* border-left: 10px solid #BD00FF; */
+    background-image: url('../../images/virus.jpg');
+    background-size: cover;
 }
 
 .recovered {
-    border-bottom: 10px solid #13F252;
+    /* border-top: 10px solid #13F252;
+    border-bottom: 10px solid #13F252; */
+    background-image: url('../../images/recovered.jpg');
+    background-size: cover;
+    background-position-y: 190px;
 }
 
 .deaths {
-    border-bottom: 10px solid #FF0000;
+    /* border-right: 10px solid #FF0000; */
+    background-image: url('../../images/death.jpg');
+    background-size: cover;
+    color: white;
 }
 
 @media only screen and (max-width: 770px) {

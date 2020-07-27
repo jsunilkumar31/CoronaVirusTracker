@@ -24,9 +24,11 @@ class App extends React.Component {
     this.setState({ data, country: country });
   }
 
+
   render() {
     const { data, country } = this.state;
 
+   
     return (
       <div className={styles.container}>
         <Header></Header>
@@ -40,6 +42,7 @@ class App extends React.Component {
             <Chart data={data} country={country} /> 
           </div>
         </div>
+        
         
       </div>
     );
